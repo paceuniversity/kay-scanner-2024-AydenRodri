@@ -279,7 +279,7 @@ public class TokenStream {
 	}
 
 	private boolean isWhiteSpace(char c) {
-		return (c == ' ' || c == '\t' || c == '\r' || c == '\n' || c == '\f');
+		return (c==' ' || c == '\t' || c == '\r' || c == '\n' || c == '\f');
 	}
 
 	private boolean isEndOfLine(char c) {
